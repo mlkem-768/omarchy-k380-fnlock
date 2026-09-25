@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.mlkem-768.k380-fnlock",
+  "name": "K380 FnLock",
+  "version": "1.0.0",
+  "author": "mlkem-768",
+  "license": "MIT",
+  "description": "Omarchy bar widget & CLI to toggle FnLock on the Logitech K380 keyboard",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "widget/Main.qml"
+  },
+  "barWidget": {
+    "displayName": "K380 FnLock",
+    "category": "Input",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}

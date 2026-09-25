@@ -1,0 +1,6 @@
+[Unit]
+Description=Apply the saved FnLock mode to a Logitech K380
+
+[Service]
+Type=oneshot
+ExecStart=/usr/lib/omarchy-k380-fnlock/engine apply-if-configured
